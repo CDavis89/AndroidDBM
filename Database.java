@@ -18,8 +18,8 @@ public class Database {
         this.context = context;
     }
 
-    String DBNAME = "test.db";
-    int initialVersion = 1;
+    String DBNAME = "your.db"; //Change to match your database, can be ignored if passing dbName as parameter to methods
+    int initialVersion = 1; //Can be changed to match initial database version.
 
     public boolean isDBLocal(){
        return isDBLocal(DBNAME);
