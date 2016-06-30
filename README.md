@@ -14,14 +14,15 @@ Future ideas include:
 # How to Use
 
 Using Android Studio:
-1. Switch from Android to Project view in the tree browser on the left of AS
-2. Expand | YOUR_PROJECT > app  > src > main | and make a new | Android > Assets folder |
-3. Create a database file using external tools (SQLiteMan) and drag into the assets folder
-4. In the Java folder under YOU.YOURAPP make a new Java file called Database
-5. Copy and paste the contents of the DBMan.java file into your new Java file
-6. Change the package name on Line 1 to reflect your own package (can be found on your other Java files)
-7. Change default values within the Database file such as DBNAME and initialVersion
-7. Call the appropriate methods as below
+
+* Switch from Android to Project view in the tree browser on the left of AS
+* Expand | YOUR_PROJECT > app  > src > main | and make a new | Android > Assets folder |
+* Create a database file using external tools (SQLiteMan) and drag into the assets folder
+* In the Java folder under YOU.YOURAPP make a new Java file called Database
+* Copy and paste the contents of the DBMan.java file into your new Java file
+* Change the package name on Line 1 to reflect your own package (can be found on your other Java files)
+* Change default values within the Database file such as DBNAME and initialVersion
+* Call the appropriate methods as below
 
 # Methods
 
