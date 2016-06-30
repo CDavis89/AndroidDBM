@@ -37,7 +37,7 @@ You may now use any of the following methods. Note that each method takes an opt
 - *getLocalVersion([String dbName])* Retrieves the latest "verNum" and "verNote" data from the automatically generated "version" table to allow version tracking, returns a Pair as *Pair(String verNum, String verNote)*
 - *updateversion(int newVersion, String verNotes)* Adds a new record to the version table representing the new version number (integer) and notes (String) for version tracking
 - *getDB([String dbName])* Fetches an SQLiteDatabase object which provides access to full querying and SQLite functions. Called after ensuring the database is made local this will allow you to execute queries using Cursor objects.
-- *close(SQLiteDatabase db)* called after database operations are finished. This takes a full SQLiteDatabase object, you should first call *SQLiteDatabase = Database.getDB;*, perform your operations then call *Database.close(db);* to end the transaction and clear system resources.
+- *close(SQLiteDatabase db)* called after database operations are finished. This takes a full SQLiteDatabase object, you should first call *SQLiteDatabase = Database.getDB;* perform your operations then call *Database.close(db);* to end the transaction and clear system resources.
 
 
 # License
